@@ -24,7 +24,7 @@ connectDb();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: "https://test-frontend-olive.vercel.app/", // Your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     credentials: true, // Include credentials if needed (e.g., cookies)
   })
