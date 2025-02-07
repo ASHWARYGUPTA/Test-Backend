@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/middlewares/parseZod.ts","./src/models/SignUp.ts","./src/schema/SignUpSchema.ts"],"version":"5.7.3"}
