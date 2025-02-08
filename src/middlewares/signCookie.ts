@@ -14,7 +14,6 @@ const signCookie = (req: Request, res: Response, next: NextFunction) => {
 
     const token = jwt.sign(dataToSign, process.env.JWT_SECRET);
     res.cookie("token", token, {
-      sameSite: true,
       secure: true,
       expires: new Date(Date.now() + 150 * 24 * 60 * 60 * 1000),
       httpOnly: true,
